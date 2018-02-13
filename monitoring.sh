@@ -1,4 +1,10 @@
 #!/bin/bash
+##Script by Akshay Chetule to Monitor changes in mount points 
+##and after some limit to get email notification
+##to automate monitoring easily and get logs do following steps first
+##1.create files log, log2 ,nochange,nochange2 at /root/ location
+##2.create a cronjob for perticalar time or with all * so that this script will run all time
+
 
 ##usage for  /test /dev/xvda3
 

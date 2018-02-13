@@ -16,7 +16,7 @@ data2=` df | grep /dev/xvda2 | awk '{print $5}' | cut -d"%" -f1`
 
 ##condition and mail for /test
 
-if [ $data1 -gt 2 ] || [ $data -lt 2 ]
+if [ $data1 -gt 2 ] || [ $data1 -lt 2 ]
 then
 #mail using mail command and service
 #echo "The usage for /test = $data1 %" | `mail -s "Usage change in /test:" user@domain.com`

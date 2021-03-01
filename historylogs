@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Author: Akshay Chetule
+#To create history log script to be run by CRONTAB
+HISTFILE=~/.bash_history
+set -o history
+file=$(date "+%Y_%m_%d___%I_M_S").txt
+history > /root/$file
